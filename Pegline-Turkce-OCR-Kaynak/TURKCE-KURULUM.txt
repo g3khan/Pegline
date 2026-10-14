@@ -1,0 +1,21 @@
+PEGLINE - TÜRKÇE SÜRÜM
+======================
+
+Bu düzenleme, Windows görüntüleme dili Türkçe (tr) olduğunda
+Pegline menülerini, ilk açılış sorusunu ve bildirimlerini Türkçe gösterir.
+İngilizce, İspanyolca ve Çince dil desteği korunmuştur.
+
+KURULUM / DERLEME (WINDOWS 10 / 11)
+1. ZIP dosyasını tümüyle bir klasöre çıkarın.
+2. build.cmd dosyasına çift tıklayın.
+3. İşlem başarılıysa build\Pegline.exe dosyasını açın.
+4. Daha önce Pegline açıksa sistem tepsisinden kapatıp yeni EXE'yi başlatın.
+
+NOTLAR
+- Visual Studio gerekmez; projenin özgün build.ps1 betiği kullanılır.
+- Windows'un .NET Framework 4.8 ve C# derleyicisi gereklidir.
+- Değişiklikler src\Support.cs içindeki Loc sınıfındadır.
+- Windows sistem ileti kutularının Evet/Hayır düğmeleri işletim sistemi dilini izler.
+- Bu ortamda Windows EXE derlemesi çalıştırılamadığı için derleme Windows'ta
+  build.cmd ile yapılmalıdır.
+- Uygulama, kaynak projenin lisansını korur (LICENSE).

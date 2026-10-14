@@ -1,0 +1,18 @@
+PEGLINE TÜRKÇE - YAZIYI KOPYALA (OCR)
+
+1) Her zamanki gibi build.cmd çalıştırın.
+2) Bu özellik için ücretsiz açık kaynak Tesseract OCR uygulamasını yükleyin:
+   https://github.com/UB-Mannheim/tesseract/wiki
+3) Kurulumda 'Turkish' ve 'English' dil paketlerini seçin.
+   Başka bir kurulum tercih ederseniz tesseract.exe'yi PATH'e ekleyin
+   veya oluşturulan build klasöründeki Pegline.exe yanına koyun.
+   Dil paketleri Tesseract kurulumunun tessdata klasöründe olmalıdır.
+4) Pegline'ı başlatın, ekrandan görüntü alın ve asılı görseli sağ tıklayın.
+5) 'Yazıyı Kopyala' seçeneğine tıklayın.
+   Tanınan metin panoya aktarılır; Ctrl+V ile yapıştırabilirsiniz.
+
+Notlar:
+- OCR yerel çalışır; internete görüntü göndermez.
+- İlk OCR denemesinde dil dosyaları eksikse uyarı çıkar.
+- Menü dilleri mevcut İngilizce/İspanyolca/Çince/Türkçe desteğini korur.
+- Windows üzerinde EXE derleme ve OCR testi henüz yapılmamıştır.
